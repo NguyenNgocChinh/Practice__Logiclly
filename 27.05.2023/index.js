@@ -111,7 +111,7 @@ const Thanh1 =  {weight:"60", height:"180", name:"Thanh",
 
 
 let today = new Date();
-let ddmmyyyy = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+let ddmmyyyy = today.getDate()+'/'+(today.getMonth()+1)+'/'+today.getFullYear();
 
 console.log(ddmmyyyy)
 
