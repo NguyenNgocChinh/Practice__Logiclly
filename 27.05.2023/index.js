@@ -97,14 +97,21 @@ console.log(sosanh3);
 // 6. Hãy in ra ngày hiện tại
 // format dd/mm/yyyy (27/05/2023)
 
-let Thanh1 =  {weight:"60", height:"180", name:"Thanh"};
+const Thanh1 =  {weight:"60", height:"180", name:"Thanh",
+    RUNABLE: true,
+    name: "Thanh",
+
+    getName() {
+        return this.name;
+    },
+};
 
 
-console.log(Thanh1.name);
+
 
 
 let today = new Date();
-let date1 = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
+let ddmmyyyy = today.getDate()+'-'+(today.getMonth()+1)+'-'+today.getFullYear();
 
-console.log(date1)
+console.log(ddmmyyyy)
 

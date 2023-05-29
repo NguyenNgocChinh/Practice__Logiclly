@@ -2,33 +2,29 @@
 // b) Hãy tính tổng (a+c)-b và in ra console
 // c) Random 1 con số trong trong 3 biến trên
 
-// const a = 6;
-// const b = -75;
-// const c = -12;
+const a = 6;
+const b = -75;
+const c = -12;
 
 // a
 
-let numbers = [6, -75, -12];
 
-// let maxInNumbera = Math.max.apply(Math, numbers);
 
-// console.log(numbers);
-// console.log("max= ", maxInNumbera);
 
-let maxValue = 6;
-if (-75 > maxValue) {
-  maxValue = -75;
+let maxValue = a;
+if (b > maxValue) {
+  maxValue = b;
 }
-if (-12 > maxValue) {
-  maxValue = -12;
+if (c > maxValue) {
+  maxValue = c;
 }
 
 console.log(maxValue);
 
 // b
-let a = 6;
-let b = -75;
-let c = -12;
+// let a = 6;
+// let b = -75;
+// let c = -12;
 
 let d = a + c - b;
 
