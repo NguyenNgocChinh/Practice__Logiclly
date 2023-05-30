@@ -104,6 +104,7 @@ const Thanh1 =  {weight:"60", height:"180", name:"Thanh",
     getName() {
         return this.name;
     },
+
 };
 
 
