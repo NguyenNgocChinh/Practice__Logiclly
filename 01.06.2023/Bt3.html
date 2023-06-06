@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function expression(n) {
+        let sum1 = 0;
+
+        for (let i = 1; i <= n; i++) {
+          sum1 += 1 / i;
+        }
+
+        return sum1;
+      }
+
+      let n = parseInt(prompt("Enter Numbers"));
+
+      if (n <= 0) {
+        alert("Enter Number >0");
+      } else {
+        document.write("sum exp:" + expression(n));
+      }
+    </script>
+  </body>
+</html>

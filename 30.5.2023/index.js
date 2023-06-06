@@ -3,10 +3,10 @@
 // 3 hãy viết 1 function sau khi tính tổng thì tính lũy thừa của số đó (vận dụng câu 1)
 
 function luythua(x) {
-  const n = Math.pow(x, 2);
+  const n = Math.pow(x, 3);
   return n;
 }
-console.log(luythua(11));
+console.log(luythua(2));
 
 // 2
 
@@ -27,3 +27,5 @@ function tong(a, b) {
   console.log(d);
 }
 tong(10, 20);
+
+
